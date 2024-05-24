@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sitters</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Nanny">
+            <li><a href="index.html"> Back to Homepage</a></li>
+        </div>
+        
+        <div class="auth-buttons">
+            <button onclick="location.href='join.html'">Join</button>
+            <button onclick="location.href='login.html'">Login</button>
+        </div>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need further information, please feel free to contact us using the form below.</p>
+        <p> Email : nanny49@gmail.com</p>
+        <p> phone Number : 01957541387 </p>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            
+        </div>
+        <div class="social">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.jpg" alt="Instagram"></a>
+            <a href="#"><img src="Pinterest-logo.png" alt="Pinterest"></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
