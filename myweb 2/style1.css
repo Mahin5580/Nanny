@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #eee1e1;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .auth-buttons button {
+    margin-right: 20px;
+    padding: 5px 15px;
+    background-color: #f1e3e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer-content div {
+    margin: 0 15px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    color: #ebe5e5;
+    text-decoration: none;
+}
+
+footer .social a img {
+    width: 30px;
+    margin: 0 10px;
+}
